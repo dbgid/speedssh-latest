@@ -28,3 +28,15 @@ die("Error: Evalhook terdeteksi\n");
 }
 ```
 dan wajib harus menggunakan versi terbaru dari PHP yaitu versi <i>8.x</i><br>
+# Installations
+```shell
+wget https://github.com/dbgid/speedssh-latest/releases/download/latest/speedssh-latest.zip
+unzip speedssh-latest.zip
+```
+# Additional Info
+Script ini sudah auto membuat php.ini pada lib termux<br>
+Untuk menaikan limit PHP memory limit<br>
+Jika hp mu tidak support write dari script ini, silahkan masukan command di bawah ini<br>
+```shell
+echo -e "php_value memory_limit 2048M\nmemory_limit=-1\nerror_reporting = E_ALL & ~E_NOTICE & ~E_WARNING & ~E_DEPRECATED" > $PREFIX/lib/php.ini
+```
