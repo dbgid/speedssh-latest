@@ -4,7 +4,7 @@ Gunakan script ini untuk pemakaian sewajar nya<br>
 Dan selalu support dev https://www.speedssh.com agar server terus on<br>
 Dan jangan sekali kali memperjual/belikan ssh gratisan dari speedssh<br>
 Baik menggunakan script ini atau langsung via web<br>
-# Script Dependicies
+# Module Dependicies
 - Simple HTML DOM
 - PHP Parser
 - PHP Unit
